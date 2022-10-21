@@ -1,0 +1,25 @@
+{
+    "baseUrl": "https://sked-qe-tech-test.my.skedulo.com",
+    "defaultCommandTimeout": 20000,
+    "reporter": "cypress-multi-reporters",
+    "chromeWebSecurity": false,
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportFilename": "index",
+            "reportDir": "cypress/reports",
+            "quite": true,
+            "overwrite": false,
+            "html": true,
+            "json": false
+        }
+    },
+    "env": {
+        "apiUrl": "https://api.skedulo.com/graphql",
+        "email": "qa+qe_tech_test@skedulo.com",
+        "password": "Sk3Dul0T3chT3st!",
+        "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5za2VkdWxvLmNvbS9hdXRoL3Rva2VuIiwiYXVkIjoiNWMwMjMzZTc5MWMyM2Q0ZmFkZGQ2MGM4MDE1MGY3MzYiLCJqdGkiOiI2WEVEQ1liYXV5QXVzT3FSU0cxQTJOWFhLU2xEc0FyRiIsImh0dHBzOi8vYXBpLnNrZWR1bG8uY29tL3ZlbiI6eyJ1c2VyX2lkIjoiMDAwMTdmOGUtMThlNC00M2U3LWI4NjYtZDVmOWU0MGVjZWUyIn0sImh0dHBzOi8vYXBpLnNrZWR1bG8uY29tL3VzZXJfaWQiOiJhdXRoMHw2MTE4ODVkMDRhNTc3MTAwNjkxNGFjNzciLCJodHRwczovL2FwaS5za2VkdWxvLmNvbS9vcmdhbml6YXRpb25faWQiOiJza19mMDliZjVhZWVhMjk0MzYyOTdlYjVhM2MwYjMwNDc3OCIsImh0dHBzOi8vYXBpLnNrZWR1bG8uY29tL3VzZXJuYW1lIjoicWErcWVfdGVjaF90ZXN0QHNrZWR1bG8uY29tIiwiaHR0cHM6Ly9hcGkuc2tlZHVsby5jb20vcmVzb3VyY2VfaWQiOiIwMDA1OGViZC1hZDAyLTQ2OWMtOThjOS0wNzgzMTVhNWIwYTIiLCJodHRwczovL2FwaS5za2VkdWxvLmNvbS9yb2xlcyI6WyJhZG1pbmlzdHJhdG9yIiwic2NoZWR1bGVyIl0sInN1YiI6ImF1dGgwfDYxMTg4NWQwNGE1NzcxMDA2OTE0YWM3NyIsImh0dHBzOi8vYXBpLnNrZWR1bG8uY29tL3ZlbmRvciI6InNrZWR1bG8ifQ.qKu0-6azEkq43MDpikW1EM1JheNYFbfO1QYm0ubuccY"
+    }
+}
