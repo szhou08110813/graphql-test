@@ -1,0 +1,27 @@
+{
+  "name": "graphql-test",
+  "version": "1.0.0",
+  "description": "api test",
+  "main": "index.js",
+  "scripts": {
+    "test:api": "cypress run --spec ./cypress/integration/api.spec.js",
+    "test:ui": "cypress run --spec ./cypress/integration/job.feature"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/szhou08110813/graphql-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szhou08110813/graphql-test/issues"
+  },
+  "homepage": "https://github.com/szhou08110813/graphql-test#readme",
+  "devDependencies": {
+    "cypress": "^9.6.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-multi-reporters": "^1.6.1",
+    "luxon": "^3.0.4",
+    "mochawesome": "^7.1.3"
+  }
+}
